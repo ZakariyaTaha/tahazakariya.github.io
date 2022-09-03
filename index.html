@@ -438,11 +438,6 @@
                 </a>
             </div> <!-- end folio-item -->
 
-            <div class="column folio-item">
-                <a href="#modal-xplore" class="folio-item__thumb">
-                    <img src="logos/pytorch.png" >
-                </a>
-            </div> <!-- end folio-item -->
 
             <div class="column folio-item">
                 <a href="#modal-Noise2Noise" class="folio-item__thumb">
@@ -456,6 +451,17 @@
                 </a>
             </div> <!-- end folio-item -->
 
+            <div class="column folio-item">
+                <a href="#modal-xplore" class="folio-item__thumb">
+                    <img src="logos/pytorch.png" >
+                </a>
+            </div> <!-- end folio-item -->
+            
+            <div class="column folio-item">
+                <a href="#modal-illuin-nlp" class="folio-item__thumb">
+                    <img src="logos/NLP.png" >
+                </a>
+            </div> <!-- end folio-item -->
             
 
             <div class="column folio-item">
@@ -679,6 +685,30 @@
 
 
         </div> <!-- end modal -->
+
+        <div id="modal-illuin-nlp" hidden>
+            <div class="modal-popup">
+                <img src="images/IR.png" alt="" />
+            
+                <div class="modal-popup__desc">
+                    <h5>Context prediction</h5>
+                    <p>
+                        I did this task as a 2-day challenge.
+                        <br>
+                        I wrote an algorithm that is able to retrieve the corresponding context from all other contexts in the dataset based 
+                        on a question in the dataset. Several techniques were possible, I chose to go with information retrieval as a combination 
+                        between KdTree using TfIdf vectorization and sentence similarity using Hugging Face embeddings.
+
+                    </p>
+                    <ul class="modal-popup__cat">
+                        <a href="https://github.com/ZakariyaTaha/Context_prediction"> Project Link</a>
+                    </ul>
+                </div>
+                <a href="https://github.com/ZakariyaTaha/Context_prediction" class="modal-popup__details">Project link</a>
+                
+            </div>
+        </div> <!-- end modal -->
+        
 
     </section> <!-- end s-portfolio -->
 
